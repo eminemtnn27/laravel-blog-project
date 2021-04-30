@@ -9,7 +9,7 @@ use App\Models\Article;
 use App\Models\Category;
 use App\Models\Page;
 use App\Models\Contact;
-use App\Tag;
+use App\Tag; 
 use Illuminate\Support\Str;
 
 use Validator;
