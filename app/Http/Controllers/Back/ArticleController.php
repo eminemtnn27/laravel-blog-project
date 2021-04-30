@@ -11,7 +11,7 @@ use Illuminate\Support\Facades\File;
 
 
 class ArticleController extends Controller
-{
+{ 
     /**
      * Display a listing of the resource.
      *
