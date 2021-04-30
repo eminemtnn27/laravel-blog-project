@@ -23,6 +23,10 @@ class Homepage extends Controller
         
 
     }
+     public function callAction($method, $parameters)
+    {
+        return parent::callAction($method, array_values($parameters));
+    }
     public function index(){
         $data['articles']=Article::orderBy('created_at','ASC')->take(20)->paginate(10);
         $data['articles']->withPath(url('sayfa'));
